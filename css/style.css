@@ -1,0 +1,118 @@
+
+body {
+    height: 100%;
+   
+    text-align: center;
+    background-image: url('../images/summer_wallpaper4532.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.font-effect-destruction{
+    font-size: 72px;
+    font-weight:bolder;
+    text-shadow: 4px 2px white; 
+
+}
+
+.score-panel {
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.instructions {
+    font-size: 28px;
+    font-weight:bold;
+}
+
+.keys {
+    border: solid white 1px;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+.box {
+    font-size: 32px;
+    min-width: 200px;
+    text-align: center;
+    background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+    border-radius: 8px;
+    margin: auto;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+
+}
+.modal1 {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 300px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 35%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+
+}
+
+
+/* Modal Content */
+.modal-content {
+    text-align: center;
+    color: black;
+    background: white;
+    font-size: 48px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 70%;
+    border: white 2px solid;
+    border-radius: 50px;
+}
+
+.insModal {
+    background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+}
+
+/* The Close Button */
+.closeWin,
+.closeStart {
+    color: #aaaaaa;
+    font-size: 80px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.closeWin:hover,
+.closeStart:hover,
+.closeWin:focus,
+.closeStart:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.winPic1 {
+    width: 90%;
+    height: 100px;
+}
+
+
+.winPic2 {
+    width: 40%;
+    height: 150px;
+}
